@@ -1,4 +1,6 @@
-
+html{
+    height:100%;
+}
 body{
     background-image: linear-gradient(#190152,#4f69a3);
     background-size:cover;
@@ -50,4 +52,4 @@ section button{
 
 section button:hover{
     background-color:rgb(228, 255, 255);
-    
+}
