@@ -2,10 +2,7 @@ html{
     height:100%;
 }
 body{
-<<<<<<< HEAD
     background-color: burlywood;
-=======
->>>>>>> 3f82ae97799f2c113a513d18c119cd2e734cef74
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .title{
@@ -15,8 +12,8 @@ body{
 }
 .gameboard{
     margin:10px auto;
-    max-width: 400px;
-    height: 400px;
+    max-width: 350px;
+    height: 350px;
     /* border:3px solid black; */
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -33,7 +30,7 @@ body{
     align-items: center;
 }
 .game-status{
-    font-size: 70px;
+    font-size: 40px;
 }
 
 section{
@@ -45,13 +42,12 @@ section button{
     height:50px;
     background-color: rgb(178, 252, 252);
     cursor: pointer;
-    margin-bottom:30px;
+    margin-top: 0;
     font-size: 20px;
 }
 
 section button:hover{
     background-color:rgb(228, 255, 255);
-<<<<<<< HEAD
     
 }
 @media only screen and (min-width: 768px) {
@@ -70,6 +66,3 @@ section button:hover{
     }
 
 }
-=======
-}
->>>>>>> 3f82ae97799f2c113a513d18c119cd2e734cef74
