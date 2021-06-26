@@ -91,6 +91,7 @@ function handleResultValidation() {
             for(let i=0;i<3;i++){
                 let box = cells[tiles[i]];
                 box.style.backgroundColor="#77ff95";
+                box.style.transition="0.8s";
             }
             break;
         }
@@ -103,7 +104,10 @@ function handleResultValidation() {
     }
     if (!gameState.includes("")) {
         statusDisplay.innerHTML = drawmessage();
-        cells.forEach(cell=>cell.style.backgroundColor="#ffc4c4")
+        cells.forEach(cell=>{
+            cell.style.transition="0.8s";
+            cell.style.backgroundColor="#ffc4c4"}
+        )
         statusDisplay.style.color="#f12828";
         gameActive = false;
         return;
