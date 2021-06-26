@@ -125,7 +125,6 @@ function handleRestart() {
     gameState = ["", "", "", "", "", "", "", "", ""];
     statusDisplay.innerHTML = playerturnmessage();
     cells.forEach(cell => {
-       
         return cell.innerHTML = ""
     });
     cells.forEach(cell => {
